@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" <?php language_attributes(); ?>>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="meta description">
-    <title>Home - Freelancer - Multipurpose Bootstrap 5 Template</title>
+    <title><?php wp_title(); ?></title>
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/'; ?>assets/img/favicon.ico" type="image/x-icon">
     <!--== Google Fonts ==-->
@@ -24,9 +24,10 @@
 <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <?php wp_head(); ?>
 </head>
 
-<body class="preloader-active">
+<body <?php body_class('preloader-active'); ?>>
     <!--== Start PreLoader Wrap ==-->
     <div class="preloader-area-wrap">
         <div class="spinner d-flex justify-content-center align-items-center h-100">

@@ -4,9 +4,8 @@ get_header();
 ?>
 
 <!-- home page content -->
-
-<!-- This is an update -->
-
+<div class="fl-spacer">
+</div>
 
 <?php
 get_footer();

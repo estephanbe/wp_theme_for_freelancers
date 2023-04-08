@@ -3,15 +3,22 @@
         <div class="row align-items-center">
             <div class="col-md-6 col-sm-8 order-1 order-sm-0">
                 <div class="footer-copyright-area mt-xs-10 text-center text-sm-start">
-                    <p class="mb-0">Copyright ©
-                        <script>
-                            document.write(new Date().getFullYear() + ' ');
-                        </script>TRIO - All Rights Reserved.
+                    <p class="mb-0">Copyright © <?php echo date('Y') ?> Bisharah Estephan - All Rights Reserved.
                     </p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-4 order-0 order-sm-1">
-                <div class="footer-social-icons nav justify-content-center justify-content-sm-end"><a href="#" target="_blank" class="trio-tooltip" data-tippy-content="Facebook"><i class="fa fa-facebook"></i></a> <a href="#" target="_blank" class="trio-tooltip" data-tippy-content="Twitter"><i class="fa fa-twitter"></i></a> <a href="#" target="_blank" class="trio-tooltip" data-tippy-content="Pinterest"><i class="fa fa-pinterest"></i></a> <a href="#" target="_blank" class="trio-tooltip" data-tippy-content="Instagram"><i class="fa fa-instagram"></i></a></div>
+                <div class="footer-social-icons nav justify-content-center justify-content-sm-end">
+                    <a href="http://facebook.com/anyprofile" target="_blank" class="trio-tooltip" data-tippy-content="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="http://twitter.com/anyprofile" target="_blank" class="trio-tooltip" data-tippy-content="Twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="http://instagram.com/anyprofile" target="_blank" class="trio-tooltip" data-tippy-content="Instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -98,6 +105,9 @@
 <script src="<?php echo get_template_directory_uri() . '/'; ?>assets/js/revslider/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="<?php echo get_template_directory_uri() . '/'; ?>assets/js/revslider/extensions/revolution.extension.video.min.js"></script>
 <script src="<?php echo get_template_directory_uri() . '/'; ?>assets/js/revslider/revslider-active.js"></script>
+
+<?php wp_footer(); ?>
+
 </body>
 
 </html>

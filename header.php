@@ -29,13 +29,13 @@
 
 <body <?php body_class('preloader-active'); ?>>
     <!--== Start PreLoader Wrap ==-->
-    <div class="preloader-area-wrap">
+    <!-- <div class="preloader-area-wrap">
         <div class="spinner d-flex justify-content-center align-items-center h-100">
             <div class="bounce1"></div>
             <div class="bounce2"></div>
             <div class="bounce3"></div>
         </div>
-    </div>
+    </div> -->
     <!--== End PreLoader Wrap ==-->
     <!--== Start Header Area Wrapper ==-->
     <header class="header-area-wrapper black-header narrow header-padding sticky-header">

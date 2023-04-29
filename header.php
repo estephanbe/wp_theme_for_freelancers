@@ -43,8 +43,8 @@
             <div class="row">
                 <!-- Start Logo Area Wrap -->
                 <div class="col-6 col-lg-2">
-                    <a href="index.html" class="logo-wrap d-block" id="fr-logo">
-                        Freelancer
+                    <a href="<?php bloginfo('url') ?>" class="logo-wrap d-block" id="fr-logo">
+                        <?php bloginfo('name') ?>
                     </a>
                 </div>
                 <!-- End Logo Area Wrap -->
